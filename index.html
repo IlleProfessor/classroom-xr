@@ -31,19 +31,15 @@
 
       <!-- Assets -->
       <a-assets>
-        <!-- TODO: replace src with your real GLB URL(s) -->
-        <a-assets>
   <a-asset-item id="model1" src="models/8866857d-8fc9-42a9-96dd-bd1909424b19.glb"></a-asset-item>
 </a-assets>
 
-      </a-assets>
+<a-entity
+  gltf-model="#model1"
+  position="0 1 -2"
+  scale="0.1 0.1 0.1"
+></a-entity>
 
-      <!-- Model 1: in front of user -->
-      <a-entity
-        gltf-model="#model1"
-        position="0 0 -2"
-        scale="1 1 1"
-      ></a-entity>
 
       <!-- Model 2: off to the right -->
       <a-entity
